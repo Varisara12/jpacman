@@ -10,6 +10,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 import static org.mockito.Mockito.mock;
 
+/**
+ * A very simple (and not particularly useful)
+ * test class to have a starting point where to put tests.
+ *
+ * @author Arie van Deursen
+ */
 
 class BoardTest {
 
