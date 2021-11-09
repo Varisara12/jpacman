@@ -14,41 +14,9 @@ public class DirectionTest {
     /**
      * Do we get the correct delta when moving north?
      */
-     /**
-     * Verifies the board has the correct height.
-     */
     @Test
     void testNorth() {
         Direction north = Direction.valueOf("NORTH");
         assertThat(north.getDeltaY()).isEqualTo(-1);
-        assertThat(north.getDeltaX()).isEqualTo(0);
     }
-     /**
-     * Verifies the board has the correct height.
-     */
-    @Test
-    void testSouth() {
-        Direction south = Direction.valueOf("SOUTH");
-        assertThat(south.getDeltaY()).isEqualTo(1);
-        assertThat(south.getDeltaX()).isEqualTo(0);
-    }
-     /**
-     * Verifies the board has the correct height.
-     */
-    @Test
-    void testWest() {
-        Direction west = Direction.valueOf("WEST");
-        assertThat(west.getDeltaY()).isEqualTo(0);
-        assertThat(west.getDeltaX()).isEqualTo(-1);
-    }
-     /**
-     * Verifies the board has the correct height.
-     */
-    @Test
-    void testSEast() {
-        Direction east = Direction.valueOf("EAST");
-        assertThat(east.getDeltaY()).isEqualTo(0);
-        assertThat(east.getDeltaX()).isEqualTo(1);
-    }
-
 }
